@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(47 88% 63%);
+  font-family: Figtree;
+}
+
+.inside-card {
+  margin-left: 1.5rem;
+}
+
+#card-container {
+  width: 24rem;
+  height: 32.625rem;
+  background-color: white;
+  border: 1px solid hsl(0 0% 7%);
+  border-radius: 20px;
+  box-shadow: 0.5rem 0.5rem 0px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#article-img {
+  max-width: 21em;
+  margin-top: 1.5em;
+  border-radius: 10px;
+}
+
+#content #tag {
+  font-weight: 800;
+  font-size: 0.875em;
+  width: 5.125rem;
+  height: 1.8125rem;
+  line-height: 1.8125rem;
+  background-color: hsl(47 88% 63%);
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 1.5em;
+}
+
+#content #publish-date {
+  font-weight: 500;
+  font-size: 0.875em;
+  color: hsl(0, 0%, 7%);
+  margin-top: 0.75em;
+}
+
+#content #title {
+  font-weight: 800;
+  font-size: 1.5em;
+  color: hsl(0 0% 7%);
+  margin-top: 0.75em;
+}
+
+#content #title:hover {
+  font-weight: 800;
+  font-size: 1.5em;
+  color: hsl(47 88% 63% / 100%);
+  margin-top: 0.75em;
+  cursor: pointer;
+}
+
+#content #description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: hsl(0, 0%, 42%);
+  margin-top: 0.75em;
+}
+
+#author {
+  height: 2rem;
+  margin-top: 1.5em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#author #profile-pic {
+  width: 2rem;
+  height: 2rem;
+}
+
+#author #name {
+  height: 1.3125rem;
+  line-height: 1.3125rem;
+  font-weight: 800;
+  font-size: 0.875em;
+  margin-left: 0.75em;
+}
